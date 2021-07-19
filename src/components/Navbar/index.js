@@ -27,16 +27,40 @@ const Navbar = ({ toggleMenu }) => {
                 <NavLogo to='/' src={Logo} alt='logo' onClick={scrollToHome} />
                 <MobileMenu onClick={toggleMenu} />
                 <NavMenu>
-                    <NavItem to={PageRoute.Courses}>
+                    <NavItem to={PageRoute.Courses}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-140}
+                    >
                         Courses
                     </NavItem>
-                    <NavItem to={PageRoute.CorporateTraining}>
+                    <NavItem to={PageRoute.CorporateTraining}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-140}
+                    >
                         Corporate training
                     </NavItem>
-                    <NavItem to={PageRoute.ReferralBonus}>
+                    <NavItem to={PageRoute.ReferralBonus}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-140}
+                    >
                         Referral Bonus
                     </NavItem>
-                    <NavItem to={PageRoute.AboutUs}>
+                    <NavItem to={PageRoute.AboutUs}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-140}
+                    >
                         About Us
                     </NavItem>
                     <NavItem to='logout'>

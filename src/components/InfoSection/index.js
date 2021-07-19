@@ -1,11 +1,12 @@
 import React from 'react'
 import { Button } from '../ButtonStyles';
 import Logo from '../../images/logo.svg'
+import { PageRoute } from '../../constants';
 import { ButtonWrap, DataWrap, InfoContainer, ButtonWrapDesk, InfoGreyBlock, InfoH1, InfoLogo, InfoP, InfoP1, InfoWrapper } from './InfoStyles';
 
 const InfoSection = () => {
     return (
-        <InfoContainer>
+        <InfoContainer id={PageRoute.CorporateTraining}>
             <InfoWrapper>
                 <InfoH1>Some title Some title Some title Some title Some title</InfoH1>
                 <InfoP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </InfoP>
