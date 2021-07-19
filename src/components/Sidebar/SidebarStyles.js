@@ -16,7 +16,6 @@ export const SidebarContainer = styled.aside`
     justify-content: center;
     font-size: 1.2rem;
     top: 0;
-    left: 0;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     transition: 0.3s ease-in-out;
     right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
