@@ -8,16 +8,16 @@ const Sidebar = ({ isOpen, toggleMenu }) => {
         <SidebarContainer isOpen={isOpen}>
             <CloseIcon onClick={toggleMenu} />
             <SidebarMenu>
-                <SidebarLink to={PageRoute.Courses}>
+                <SidebarLink to={PageRoute.Courses} onClick={toggleMenu}>
                     Courses
                 </SidebarLink>
-                <SidebarLink to={PageRoute.CorporateTraining}>
+                <SidebarLink to={PageRoute.CorporateTraining} onClick={toggleMenu}>
                     Corporate training
                 </SidebarLink>
-                <SidebarLink to={PageRoute.ReferralBonus}>
+                <SidebarLink to={PageRoute.ReferralBonus} onClick={toggleMenu}>
                     Referral Bonus
                 </SidebarLink>
-                <SidebarLink to={PageRoute.AboutUs}>
+                <SidebarLink to={PageRoute.AboutUs} onClick={toggleMenu}>
                     About Us
                 </SidebarLink>
             </SidebarMenu>

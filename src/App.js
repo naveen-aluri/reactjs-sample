@@ -4,7 +4,7 @@ import HomePage from './pages';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/reactjs-sample'>
       <Switch>
         <Route path='/' exact component={HomePage} />
       </Switch>
